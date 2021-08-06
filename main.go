@@ -37,7 +37,9 @@ func (recevier *List) Add(node ListNode)  {
 	recevier.length++
 }
 
-
+/*func (recevier *List) popBack(node ListNode)  {
+	if recevier.len() ==
+}*/
 
 type ListNode struct {
 	Prev *ListNode
